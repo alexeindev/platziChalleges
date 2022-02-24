@@ -21,3 +21,73 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-width: 320px;
+  height: 334px;
+  font-family: var(--font-sans);
+  background: linear-gradient(var(--linear-gradient));
+}
+
+.header--text-container {
+  width: 90%;
+  text-align: center;
+}
+
+.header--logo {
+  margin: 60px 0;
+}
+
+.header--title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: white;
+}
+
+.header--subtitle {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+
+.header--button {
+  position: absolute;
+  bottom: -24px;
+  left: calc(50% - 118px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--off-white);
+  height: 48px;
+  width: 229px;
+  min-width: 229px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.header--button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--warm-black);
+  text-decoration: none;
+}
+
+.header--button span {
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("./assets/icons/down-arrow.svg");
+}
