@@ -1,0 +1,23 @@
+:root {
+  /* Fonts */
+  --font-sans: "DM Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Colors */
+  --background: #e5e5e5;
+  --bitcoin-orage: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #ffe9d5;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --warm-blackplus1: #282623;
+  --gray: #bababa;
+  --off-white: #faf8f7;
+  --linear-gradient: 207.8deg, #201e1c 16.69%, #f7931a 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
